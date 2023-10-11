@@ -37,7 +37,7 @@ const SearchComponent = () => {
                <Link
                key={product.id}
                to={`/product/${product.id}`}
-              
+                onClick={() => setSearchTerm('')}
              >
           <div
             key={product.id}
